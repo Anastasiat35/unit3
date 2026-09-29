@@ -46,11 +46,12 @@ console.log(sumRange(4, 4));   // 4
 // Use a while loop, not a for loop.
 function countdown(n) {
   // TODO: your code here
-  let number = []
-while (number > 0) {
- 
+  let numbers = []
+while (n > 0) {
+ numbers.push (n)
+  n--
 }
-return number
+return numbers
 }
 
 console.log(countdown(5)); // [5, 4, 3, 2, 1]
@@ -65,7 +66,11 @@ console.log(countdown(8)); // [8, 7, 6, 5, 4, 3, 2, 1]
 // str[i] or str.charAt(i).
 function countVowels(str) {
   // TODO: your code here
-
+const vowels = []
+while (str ){
+  vowels.push ("a", "e", "i", "o", "u")
+}
+return vowels
 }
 
 console.log(countVowels("hello"));      // 2
