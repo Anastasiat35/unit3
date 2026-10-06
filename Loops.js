@@ -64,13 +64,13 @@ console.log(countdown(8)); // [8, 7, 6, 5, 4, 3, 2, 1]
 // Loop through every index of the string and use an if statement to
 // check whether that character is a vowel. Access a character with
 // str[i] or str.charAt(i).
-function countVowels(str) {
+function countVowels(vowels) {
   // TODO: your code here
-const vowels = []
-while (str ){
-  vowels.push ("a", "e", "i", "o", "u")
-}
-return vowels
+  const vowels = ["a", "e", "i", "o", "u"]
+  for (let i = 0; i < total; i++) {
+    if total = 0
+  }
+  return total
 }
 
 console.log(countVowels("hello"));      // 2
